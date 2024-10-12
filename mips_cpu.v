@@ -89,7 +89,7 @@ module mips_cpu(clk, instruction_memory_a, instruction_memory_rd, data_memory_a,
   //   .out(skip)
   // );
 
-  // shl_2 shl_2(  Вот так можно было бы обрабатывать условный переход (но я не смог написать PC)
+  // shl_2 shl_2(  Вот так можно было бы обрабатывать условный переход
   //   .in(skip),
   //   .out(skip_in_bytes)
   // );
